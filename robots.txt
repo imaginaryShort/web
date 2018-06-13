@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /js/
+Disallow: /images/imslogo_profile.svg
+
+Sitemap:https://imaginaryshort.com/sitemap.xml

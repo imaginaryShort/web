@@ -1,0 +1,451 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  font-family: 'Noto Sans', sans-serif, "Times New Roman", "游明朝", "YuMincho", "Hiragino Mincho ProN", "Meiryo", "serif";
+}
+.text {
+  font-size: 14px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+}
+.default-font {
+  color: #fefefe;
+  font-size: 12px;
+}
+.wrapper {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wrapper-index {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.profile-name {
+  width: 180px;
+  height: 180px;
+  -webkit-border-radius: 90px;
+  /* width,heightの半分 */
+  -moz-border-radius: 90px;
+  border-radius: 90px;
+
+  margin-left: 50px;
+  margin-bottom: 20px;
+  float: left;
+  background-size: contain;
+}
+
+.profile-name .name {
+  padding-top: 45px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  display: none;
+}
+.profile-name:hover .name {
+  color: #fff;
+  display: block;
+}
+.profile-name:hover .name p {
+  background-color: #000;
+}
+
+.ryo {
+  background-image: url("../image/ryo.jpg");
+}
+
+.yuki {
+  background-image: url("../image/yuki.jpg");
+}
+
+.kishin {
+  background-image: url("../image/kishin.jpg");
+}
+
+.yuki_s {
+  background-image: url("../image/yuki_s.jpg");
+}
+
+.koki {
+  background-image: url("../image/koki.jpg");
+}
+
+.mai {
+  background-image: url("../image/mai.jpg");
+}
+
+.aoki {
+  background-image: url("../image/aonori-ico.jpg");
+}
+
+.terakawa {
+  background-image: url("../image/terakawa.jpg");
+}
+
+
+/*
+.ryo {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  float: left;
+  background-size: contain;
+  background-image: url("../image/ryo.jpg");
+}
+.ryo .name {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: none;
+}
+.ryo:hover .name {
+  color: #fff;
+  display: block;
+}
+.ryo:hover .name p {
+  background-color: #000;
+}
+
+.yuki {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  float: left;
+  background-size: contain;
+  background-image: url("../image/yuki.jpg");
+}
+.yuki .name {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: none;
+}
+.yuki:hover .name {
+  color: #fff;
+  display: block;
+}
+.yuki:hover .name p {
+  background-color: #000;
+}
+.kishin {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  float: left;
+  background-size: contain;
+  background-image: url("../image/kishin.jpg");
+}
+.kishin .name {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: none;
+}
+.kishin:hover .name {
+  color: #fff;
+  display: block;
+}
+.kishin:hover .name p {
+  background-color: #000;
+}
+.yuki_s {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  float: left;
+  background-size: contain;
+  background-image: url("../image/yuki_s.jpg");
+}
+.yuki_s .name {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: none;
+}
+.yuki_s:hover .name {
+  color: #fff;
+  display: block;
+}
+.yuki_s:hover .name p {
+  background-color: #000;
+}
+.koki {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  float: left;
+  background-size: contain;
+  background-image: url("../image/koki.jpg");
+}
+.koki .name {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: none;
+}
+.koki:hover .name {
+  color: #fff;
+  display: block;
+}
+.koki:hover .name p {
+  background-color: #000;
+}
+.mai {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  float: left;
+  background-size: contain;
+  background-image: url("../image/mai.jpg");
+}
+.mai .name {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  display: none;
+}
+.mai:hover .name {
+  color: #fff;
+  display: block;
+}
+.mai:hover .name p {
+  background-color: #000;
+}
+*/
+
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.project {
+  position: relative;
+  width: 960px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.project img {
+  width: 100%;
+  height: 100%;
+}
+.project .background {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #000;
+  opacity: 0.7;
+  display: none;
+}
+.project .name {
+  position: absolute;
+  bottom: 22px;
+  right: 20px;
+  color: #fff;
+  margin: 0;
+  font-size: 36px;
+  text-align: right;
+  display: none;
+}
+.project .description {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  text-align: right;
+  display: none;
+}
+.project:hover .background {
+  display: block;
+}
+.project:hover .name {
+  display: block;
+}
+.project:hover .description {
+  display: block;
+}
+
+.wrap, .prof-wrapper {
+  min-height: 100vh;
+}
+
+.wrap {
+  width: 100%;
+  display: block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+}
+
+.left-bg, .right-bg {
+  width: auto;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+}
+
+.left-bg {
+  background-color: #FFFF00;
+}
+
+.right-bg {
+  background-color: #FFFFFF;
+}
+
+.prof-wrapper {
+  width: 960px;
+  text-align: center;
+}
+
+.profile-logo {
+  height: 320px;
+  width: 160px;
+  display: inline-block;
+  float: left;
+}
+
+.name-and-title {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+.blank {
+  height: 320px;
+  width: 160px;
+  display: inline-block;
+  float: right;
+  border: none;
+}
+
+.minilogo {
+  height: 30px;
+  width: 100%;
+  margin-top: 15px;
+  background-size: contain;
+  background-image: url("../image/imslogo_mini.svg")
+}
+
+.bio {
+  display: block;
+  height: auto;
+}
+
+.profilepic {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 100px;
+  /* width,heightの半分 */
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-top: 10px;
+  display: inline-block;
+  background-size: contain;
+}
+
+.ims-footer {
+  width: 960px;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.project-header {
+  width: 960px;
+  height: auto;
+}
+
+.project-title {
+  width: auto;
+  display: inline-block;
+  float: left
+}
+
+.credit {
+  width: 2em;
+  height: 2em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  margin-left: 0.3em;
+  margin-top: 1.67em;
+  display: inline-block;
+  float: right;
+  background-size: contain;
+}
+
+.other {
+  background-image: url("../image/others.jpg")
+}
+
+.about {
+  position: relative;
+  width: 960px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.about .name {
+  position: absolute;
+  bottom: 22px;
+  right: 20px;
+  color: #111;
+  margin: 0;
+  font-size: 36px;
+  text-align: right;
+}
+.about .description {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  color: #111;
+  margin: 0;
+  font-size: 20px;
+  text-align: right;
+}
